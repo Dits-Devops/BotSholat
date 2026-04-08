@@ -1,1 +1,24 @@
-{}
+{
+  "name": "botsholat",
+  "version": "1.0.0",
+  "description": "WhatsApp Bot Pengingat Sholat menggunakan Baileys",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.21",
+    "axios": "^1.14.0",
+    "better-sqlite3": "^12.8.0",
+    "dotenv": "^16.6.1",
+    "node-cron": "^3.0.3",
+    "pino": "^9.14.0",
+    "pino-pretty": "^11.3.0",
+    "qrcode-terminal": "^0.12.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "license": "MIT"
+}
